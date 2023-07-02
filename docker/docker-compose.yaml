@@ -1,0 +1,15 @@
+version: '3.8'
+
+# Services
+services:
+
+  # Nginx Service
+  nginx:
+    build:
+      context: ./services/nginx
+      dockerfile: Dockerfile
+    container_name: LotteryNginx
+    ports:
+      - "7777:80"
+    volumes:
+      - "../src:/var/www/html"

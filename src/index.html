@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Lottery</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='libs/bootstrap/css/bootstrap.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='app.css?v=1.0.2'>
+    <link rel="preload" as="media" href="sound/xoso.mp3">
+    <link rel="preload" as="media" href="sound/done.mp3">
+</head>
+
+<body>
+    <div class="row lottery-numbers" title="Start Round">
+        <div class="col-4 text-center numbers-0" style="display:none;">
+            <img class="img-fluid" src="imgs/ball-item-0.png" data-number="0" />
+            <img class="img-fluid" src="imgs/ball-item-1.png" data-number="1" />
+        </div>
+        <div class="col-4 text-center numbers-1" style="display:none;">
+            <img class="img-fluid" src="imgs/ball-item-0.png" data-number="0" />
+            <img class="img-fluid" src="imgs/ball-item-1.png" data-number="1" />
+            <img class="img-fluid" src="imgs/ball-item-2.png" data-number="2" />
+            <img class="img-fluid" src="imgs/ball-item-3.png" data-number="3" />
+            <img class="img-fluid" src="imgs/ball-item-4.png" data-number="4" />
+            <img class="img-fluid" src="imgs/ball-item-5.png" data-number="5" />
+            <img class="img-fluid" src="imgs/ball-item-6.png" data-number="6" />
+            <img class="img-fluid" src="imgs/ball-item-7.png" data-number="7" />
+            <img class="img-fluid" src="imgs/ball-item-8.png" data-number="8" />
+            <img class="img-fluid" src="imgs/ball-item-9.png" data-number="9" />
+        </div>
+        <div class="col-4 text-center numbers-2" style="display:none;">
+            <img class="img-fluid" src="imgs/ball-item-0.png" data-number="0" />
+            <img class="img-fluid" src="imgs/ball-item-1.png" data-number="1" />
+            <img class="img-fluid" src="imgs/ball-item-2.png" data-number="2" />
+            <img class="img-fluid" src="imgs/ball-item-3.png" data-number="3" />
+            <img class="img-fluid" src="imgs/ball-item-4.png" data-number="4" />
+            <img class="img-fluid" src="imgs/ball-item-5.png" data-number="5" />
+            <img class="img-fluid" src="imgs/ball-item-6.png" data-number="6" />
+            <img class="img-fluid" src="imgs/ball-item-7.png" data-number="7" />
+            <img class="img-fluid" src="imgs/ball-item-8.png" data-number="8" />
+            <img class="img-fluid" src="imgs/ball-item-9.png" data-number="9" />
+        </div>
+    </div>
+
+    <div class="result-box">
+        <div class="result-girl">
+            <div class="result-number">000</div>
+        </div>
+    </div>
+
+    <script src="libs/jquery.min.js"></script>
+    <script src="libs/roulette.min.js"></script>
+    <script src="libs/howler.min.js"></script>
+    <script src="app.js?v=1.0.2"></script>
+</body>
+
+</html>

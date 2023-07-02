@@ -1,0 +1,53 @@
+body {
+    background-color: gray;
+}
+
+.lottery-numbers {
+    width: 60%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.lottery-numbers img {
+    margin: auto;
+}
+
+.result-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url(imgs/light.png) no-repeat center center/cover;
+    display: none;
+}
+
+.result-girl {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url(imgs/girl.png) no-repeat center bottom/contain;
+}
+
+.result-number {
+    position: absolute;
+    top: 44%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 6rem;
+}
+
+@media screen and (max-width: 800px) {
+    .result-number {
+        top: 45%;
+        font-size: 3.5rem;
+    }
+}
